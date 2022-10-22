@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap') ;
+
+body {
+  background: #fafafa;
+  font-family: Roboto , sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.h100 {
+  height: 100vh;
+}
+
+.bg-login {
+  background: url('./images/bg.jpg') no-repeat center center #ffc36b;
+  background-size: cover;
+}
+
+.button-theme-bg {
+  background-color: #f28300;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.wrapper {
+  border: 1px solid #f1f1f1;
+  display: flex;
+  height: 240px;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 2;
+}
+
+.wrapper .item {
+  background: #f1f1f1;
+  height: 190px;
+  margin-right: 5px;
+  min-width: 200px;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.div-image {
+  border: 1px solid #f2830080;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+
+.filter-image {
+  cursor: pointer;
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.text-filter {
+  cursor: pointer;
+  font-size: 0.8em;
+  word-break: break-all;
+}
