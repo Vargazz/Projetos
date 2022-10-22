@@ -1,0 +1,5 @@
+/* stylelint-disable order/properties-alphabetical-order */
+.tableUp {
+  color: white;
+  border: solid 2px yellow;
+}

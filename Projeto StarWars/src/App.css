@@ -1,0 +1,86 @@
+* {
+  border: none;
+  margin: 0%;
+  text-align: center;
+  background-color: black;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tableUp {
+  color: white;
+  border: yellow solid 3px;
+  border-radius: 10px;
+}
+
+.divTable {
+  align-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.numeric {
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonFiltrar {
+  height: 40px;
+  width: 80px;
+  background-color: rgb(243, 221, 22);
+  border: black solid 1px;
+  border-radius: 10px;
+  color: black;
+}
+
+.buttonFiltrar:hover {
+  background-color: rgb(151, 161, 2);
+}
+
+.valueInput {
+  height: 20px;
+  width: 150px;
+  background-color: rgb(243, 221, 22);
+  border: rgb(255, 196, 0) solid 3px;
+}
+
+.optionInput {
+  height: 20px;
+  width: 150px;
+  background-color: rgb(243, 221, 22);
+  border: yellow solid 3px;
+}
+
+.column {
+  height: 20px;
+  width: 150px;
+  background-color: rgb(243, 221, 22);
+  border: yellow solid 2px;
+}
+
+.inputName {
+  height: 20px;
+  width: 300px;
+  background-color: white;
+  border: yellow solid 3px;
+}
+
+.tabela {
+  color: white;
+  gap: 10px;
+}
+
+.label {
+  color: white;
+  padding-right: 5px;
+}

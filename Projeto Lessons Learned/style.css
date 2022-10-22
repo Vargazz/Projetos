@@ -1,0 +1,48 @@
+body{
+
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    
+    position: fixed;
+    top: 0px;
+    border: 3px solid #73AD21;
+    background-color: #73AD21;
+    color:white;
+    width: 100%;
+}
+
+.links{
+    display: inline-block;
+    width: 100px;
+    font-size: 20px
+
+}
+
+#minha_foto{
+    width: 200px;
+}
+
+article{
+    border: 2px solid green;
+    width: 600px;
+    height: 100px;
+    background-color: #73AD21;
+    color: white;
+    display: inline-block;
+}
+
+#titulo{
+    text-align: center;
+}
+
+aside{
+    border: 2px solid green;
+    width: 600px;
+    height: 100px;
+    background-color: #73AD21;
+    color: white;
+    margin-left: 650px;
+    margin-top: -100px;
+}
